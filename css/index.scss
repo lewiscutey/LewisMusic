@@ -64,15 +64,78 @@ html,body{
       background-image: url("../img/login/input.png");
       background-size: cover;
       background-repeat: no-repeat;
+      .name,.password{
+        width: 100%;
+        height: 1rem;
+        position: relative;
+        img{
+          width: 0.51rem;
+          height: 0.51rem;
+        }
+        input{
+          outline: none;
+          background-color: transparent;
+          line-height: 1rem;
+          font-size: 0.3rem;
+          border: none;
+          color: #979799;
+        }
+      }
+      .name{
+        img{
+          position: absolute;
+          top: 0.4rem;
+          left: 0.4rem;
+        }
+        input{
+          position: absolute;
+          top: 0.18rem;
+          left: 1.5rem;
+        }
+      }
+      .password{
+        img{
+          position: absolute;
+          top: 0.25rem;
+          left: 0.4rem;
+        }
+        input{
+          position: absolute;
+          top: 0.1rem;
+          left: 1.5rem;
+        }
+      }
     }
     .forget{
-      width: 5.5rem;
+      width: 5.2rem;
       height: 1rem;
       margin: 0.4rem auto 0;
-      background-image: url("../img/login/input.png");
+      background-image: url("../img/login/foget.png");
       background-size: cover;
-      background-position: center bottom;
       background-repeat: no-repeat;
+      position: relative;
+      img{
+        width: 0.36rem;
+        height: 0.36rem;
+        position: absolute;
+        top: 0.05rem;
+        left: 0.35rem;
+      }
+      span{
+        line-height: 0.4rem;
+        font-size: 0.18rem;
+        color: #979799;
+      }
+      .rememberPassword{
+        position: absolute;
+        left:0.8rem;
+        top: 0.05rem;
+      }
+      .forgetPassword{
+        position: absolute;
+        right:0.3rem;
+        top: 0.05rem;
+      }
     }
     .submit{
       width: 5.01rem;
