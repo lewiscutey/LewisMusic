@@ -32,7 +32,39 @@ html,body{
   background-color: #724daa;
 }
 //第一屏
-.swiper-wrapper .swiper-slide:nth-child(1){
+.swiper-wrapper .swiper-slide:nth-child(1) {
+  background-image: url("../img/flash1/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .word1{
+    width: 6rem;
+    height: 2.3rem;
+    margin: 1.7rem auto 0;
+    background-image: url("../img/flash1/word1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .word2{
+    width: 7.5rem;
+    height: 8.6rem;
+    margin: 1rem auto 0;
+    padding-top: 1rem;
+    background-image: url("../img/flash1/word3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .word3{
+      width: 2.5rem;
+      height: 2.2rem;
+      margin-top: 1.8rem;
+      margin-left: 2.7rem;
+      background-image: url("../img/flash1/word2.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+//第二屏
+.swiper-wrapper .swiper-slide:nth-child(2){
   background-image: url("../img/login/login.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -123,7 +155,7 @@ html,body{
       }
       span{
         line-height: 0.4rem;
-        font-size: 0.18rem;
+        font-size: 0.2rem;
         color: #979799;
       }
       .rememberPassword{
@@ -207,7 +239,39 @@ html,body{
     }
   }
 }
+//第一屏
+.swiper-wrapper .swiper-slide:nth-child(3) {
+  background-image: url("../img/flash2/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .word1{
+    width: 6rem;
+    height: 2.3rem;
+    margin: 1.7rem auto 0;
+    background-image: url("../img/flash2/word1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .word2{
+    width: 2.5rem;
+    height: 2.2rem;
+    margin-top: 3.9rem;
+    margin-left: 2.5rem;
+    background-image: url("../img/flash2/word2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .word3{
+    width: 7.5rem;
+    height: 100%;
+    position: absolute;
+    top: 1rem;
+    background-image: url("../img/flash2/word3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
+}
 
 
 
