@@ -63,8 +63,42 @@ html,body{
     }
   }
 }
+
 //第二屏
-.swiper-wrapper .swiper-slide:nth-child(2){
+.swiper-wrapper .swiper-slide:nth-child(2) {
+  background-image: url("../img/flash2/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .word1{
+    width: 6rem;
+    height: 2.3rem;
+    margin: 1.7rem auto 0;
+    background-image: url("../img/flash2/word1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .word2{
+    width: 2.5rem;
+    height: 2.2rem;
+    margin-top: 3.9rem;
+    margin-left: 2.5rem;
+    background-image: url("../img/flash2/word2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .word3{
+    width: 7.5rem;
+    height: 100%;
+    position: absolute;
+    top: 1rem;
+    background-image: url("../img/flash2/word3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+//第三屏
+.swiper-wrapper .swiper-slide:nth-child(3){
   background-image: url("../img/login/login.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -180,6 +214,11 @@ html,body{
       background-image: url("../img/login/button.png");
       background-size: cover;
       background-repeat: no-repeat;
+      a{
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
     }
     .account{
       width: 4.3rem;
@@ -239,47 +278,87 @@ html,body{
     }
   }
 }
-//第一屏
-.swiper-wrapper .swiper-slide:nth-child(3) {
-  background-image: url("../img/flash2/back.png");
+
+//首页
+.shouye{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/shouye.png");
   background-size: cover;
   background-repeat: no-repeat;
-  .word1{
-    width: 6rem;
-    height: 2.3rem;
-    margin: 1.7rem auto 0;
-    background-image: url("../img/flash2/word1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  .head{
+    width: 100%;
+    height: 0.9rem;
+    a{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
   }
-  .word2{
-    width: 2.5rem;
-    height: 2.2rem;
-    margin-top: 3.9rem;
-    margin-left: 2.5rem;
-    background-image: url("../img/flash2/word2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  .body{
+    width: 100%;
+    height:12.44rem;
+    a{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
   }
-  .word3{
-    width: 7.5rem;
-    height: 100%;
-    position: absolute;
-    top: 1rem;
-    background-image: url("../img/flash2/word3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
 }
 
+//列表页
+.list{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/liebiao.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .head{
+    width: 100%;
+    height: 0.9rem;
+    a{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  .body{
+    width: 100%;
+    height:12.44rem;
+    a{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}
 
-
-
-
-
-
-
+//歌词页
+.geci{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/geci.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .head{
+    width: 100%;
+    height: 0.9rem;
+    a{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  .body{
+    width: 100%;
+    height:12.44rem;
+    a{
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}
 
 
 
